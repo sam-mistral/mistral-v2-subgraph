@@ -1,11 +1,11 @@
 specVersion: 0.0.2
-description: Balancer is a non-custodial portfolio manager, liquidity provider, and price sensor.
+description: Mistral (Bal V2) is a non-custodial portfolio manager, liquidity provider, and price sensor.
 {{#if graft}}
 graft:
   base: {{graft.base}}
   block: {{graft.block}}
 {{/if}}
-repository: https://github.com/balancer-labs/balancer-subgraph-v2
+repository: https://github.com/sam-mistral/mistral-v2-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
